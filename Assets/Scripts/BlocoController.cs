@@ -8,7 +8,7 @@ public class BlocoController : MonoBehaviour
 
     private void Awake()
     {
-        for (int y = 0; y < quantityBlocos; y++)
+        for (int y = 0; y < blocksPrefabs.Count; y++)
         {
             
             for (int i = 0; i < quantityBlocos; i++)

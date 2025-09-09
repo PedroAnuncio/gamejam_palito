@@ -16,6 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6460d52f11fa4eaeabfca1cf2e9eca8f46ae00/69/fb365682/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -106,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757370997459</updated>
-      <workItem from="1757370998950" duration="3877000" />
+      <workItem from="1757370998950" duration="4813000" />
     </task>
     <servers />
   </component>
@@ -139,19 +142,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/BlocoController.cs</url>
-          <line>17</line>
-          <properties documentPath="C:\Users\lucas\gamejam palito\Assets\Scripts\BlocoController.cs" containingFunctionPresentation="Method 'Awake'">
-            <startOffsets>
-              <option value="514" />
-            </startOffsets>
-            <endOffsets>
-              <option value="594" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
