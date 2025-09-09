@@ -8,13 +8,12 @@ public class BlocoController : MonoBehaviour
 
     private void Awake()
     {
-        for (int y = 0; y < quantityBlocos; y++)
+        for (int y = 0; y < blocksPrefabs.Count; y++)
         {
             
             for (int i = 0; i < quantityBlocos; i++)
             {
-                int x = Screen.width / (quantityBlocos + 2) * i;
-                Vector3 offset = new Vector3(x, y, 0);
+                Vector3 offset = new Vector3(i*2, y, 0);
                 Instantiate(blocksPrefabs[y], transform.position + offset, Quaternion.identity);
             }
         }
