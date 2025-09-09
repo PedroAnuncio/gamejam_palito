@@ -1,15 +1,17 @@
 using UnityEngine;
 
-public class breakingBlocks : MonoBehaviour
+public class breaking : MonoBehaviour
 {
-    public Sprite[] blockStates; 
+    public Sprite[] blockStates;
     private int hits = 0;
     private SpriteRenderer sr;
+    
+    public GameObject hitter;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        sr.sprite = blockStates[hits]; 
+        sr.sprite = blockStates[hits];
     }
 
     public void TakeHit()
@@ -23,6 +25,15 @@ public class breakingBlocks : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject == hitter)
+        {
+            print($"{hitter.name} bateu!");
+            TakeHit();
         }
     }
 }
